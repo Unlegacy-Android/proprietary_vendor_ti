@@ -9,7 +9,6 @@ PRODUCT_PACKAGES += \
 	libsrv_init \
 	libsrv_um \
 	libusc \
-	libEGL_POWERVR \
 	libGLESv1_CM_POWERVR \
 	libGLESv2_POWERVR \
 	gralloc.omap4
