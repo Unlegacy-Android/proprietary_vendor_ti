@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_e0ba42c0",
+        "filename": "omap4/proprietary/vendor/firmware/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-10-31T17:02:37Z",
+      "side": 1,
+      "message": "I think this is a little bit ugly this way :) could you move that lonely \u0027b\u0027 back to bowser/blaze?",
+      "range": {
+        "startLine": 11,
+        "startChar": 35,
+        "endLine": 11,
+        "endChar": 88
+      },
+      "revId": "317b501e762ff7acc483e21287d6425298c1bd7e",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    }
+  ]
+}
