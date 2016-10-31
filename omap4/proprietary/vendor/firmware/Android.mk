@@ -2,6 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_BOARD_PLATFORM),omap4)
 
+ifneq ($(USE_AMAZON_DUCATI),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := ducati-m3-core0
 LOCAL_MODULE_OWNER := ti
@@ -11,5 +12,6 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_SRC_FILES := $(LOCAL_MODULE)$(LOCAL_MODULE_SUFFIX)
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 include $(BUILD_PREBUILT)
+endif
 
 endif
