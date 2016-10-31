@@ -22,6 +22,30 @@
       "revId": "317b501e762ff7acc483e21287d6425298c1bd7e",
       "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_60c75246",
+        "filename": "omap4/proprietary/vendor/firmware/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2016-10-31T17:42:06Z",
+      "side": 1,
+      "message": "Done; the line is a bit long, but splitting it would be ugly too.",
+      "parentUuid": "baa041b7_e0ba42c0",
+      "range": {
+        "startLine": 11,
+        "startChar": 35,
+        "endLine": 11,
+        "endChar": 88
+      },
+      "revId": "317b501e762ff7acc483e21287d6425298c1bd7e",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
     }
   ]
 }
